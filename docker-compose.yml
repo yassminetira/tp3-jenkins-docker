@@ -1,0 +1,8 @@
+
+services:
+  web:
+    image: yassminetira/tp3-site:latest
+    container_name: tp3-compose-web
+    ports:
+      - "8083:80"
+    restart: unless-stopped
